@@ -14,9 +14,21 @@ Bonus task if you have the time:
 ## Questions:
 
 1. What are the steps you took to complete the project?
-2. What are the challenges you faced?
-3. What are the things you would do differently if you had more time?
+- Copy-paste python templates from batch processing module and refactor for project task
+- Data upload
+- Spark job on GCP
+- Setup BigQuery
 
+2. What are the challenges you faced?
+I tried to set up a workflow orchestration with the managed Airflow service on GCP but ran into many issues during the deployement.
+
+3. What are the things you would do differently if you had more time?
+Set it as a DAG on Airflow.
 ## Submission:
 
 Please submit your solution as a link to a github repository. The repository should contain the scripts and a README.md file that is answering the questions above.
+
+
+1. upload green taxi trips to bucket
+2. transform with pyspark: revenue per day
+3. load into bigquery
